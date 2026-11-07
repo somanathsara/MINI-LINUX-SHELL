@@ -44,6 +44,7 @@ while True:
             "set": commands.set,
             "env": commands.env,
             "unset": commands.unset,
+            "help" : commands.help
         }
         if "color" in command:
             current_color = utils.color(command)

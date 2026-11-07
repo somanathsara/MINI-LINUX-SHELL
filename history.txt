@@ -746,3 +746,8 @@ cls
 help
 cls
 exit
+help
+cl
+cl
+cls
+exit
