@@ -81,7 +81,7 @@ while True:
             commands.display_data(returned_data)
         else:  # normal commad
             if command:
-                command = commands.excute_command(command)
+                command = commands.execute_command(command)
             part = command.split()
             cmd = part[0]
             args = part[1:]

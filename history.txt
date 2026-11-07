@@ -601,26 +601,12 @@ unset PUSH
 exit
 cd MINI LINUX SHELL
 unset name
-
-
-
-
-
-
-
-
-
-
-
-
-
 fe3uqyfhjfqeyh
 ewrhrtuje
 errjere
 efhefierf
 refneighrj
-wefoehue\
-x
+wefoehue
 cd MINI LINUX SHELL
 unset name
 env
@@ -710,4 +696,53 @@ color blue
 color red
 color green
 exit
->>>>>>> a55df8f (Last commit)
+cls
+help
+exit
+cls
+ls
+cls
+tree
+cls
+tree
+color green
+cls
+help
+color red
+cls
+color black
+color blue
+cls
+color magneta
+cls
+tree
+cls
+color cyan
+cls
+tree
+cls
+exit
+cls
+ls
+rmdir Folder1
+rmdir -f Folder1
+cls
+ls
+cd Folder1
+cls
+ls
+rmdir *.py
+rm *.py
+cls
+tree
+cd Folder3;rm *.py;cd Folder4;rm *.py;cd ..;rmdir Folder4;cd ..;rmdir Folder3;cd ..;rmdir Folder1;
+cls
+wc commands.py
+cls
+grep -n help commands.py 
+cls
+help
+cls
+help
+cls
+exit

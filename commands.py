@@ -6,7 +6,10 @@ help_path = os.path.join(SHELL_DIR, "help.txt")
 
 cmd_list = []
 
-
+def help(command):
+    with open(help_path, "r")as f:
+        data = f.read()
+    print(data)
 def clear(command):
     os.system("cls")
 
@@ -410,7 +413,7 @@ def display_data(data):
     print("\n")
 
 
-def excute_command(command):
+def execute_command(command):
     part = command.split()
     new_part = []
     for item in part:  # wildcart
@@ -422,6 +425,7 @@ def excute_command(command):
     part = new_part
     command = " ".join(part)
     return command
+
 def load_env(command):
     data = []
     if os.path.isfile(".env"):
