@@ -680,3 +680,34 @@ rmdir env
 rm env
 ls
 rm .env
+<<<<<<< HEAD
+=======
+color red
+color magenta
+color magneta
+color blue
+color yellow
+color white
+exit
+tree
+color cyan
+color blue
+color magenta
+color magneta
+color red
+cls
+exit
+hello
+ls
+ls *.txt
+tree
+cat test.py | head
+pwd
+tree
+cls
+coloroma green
+color blue
+color red
+color green
+exit
+>>>>>>> a55df8f (Last commit)
